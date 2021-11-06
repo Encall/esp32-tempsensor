@@ -6,7 +6,7 @@
   // REPLACE with Database user
   $username = "esp_board";
   // REPLACE with Database user password
-  $password = "lY^01pj3";
+  $password = "XXXXXXXXXXXX";
 
   function insertReading($sensor, $location, $value1, $value2, $value3) {
     global $servername, $username, $password, $dbname;
