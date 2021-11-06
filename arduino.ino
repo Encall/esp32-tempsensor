@@ -16,16 +16,16 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);   //Module IIC/I2C Interface
 #define DHTPIN 14     //Pin of DHT22
 #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 DHT dht(DHTPIN, DHTTYPE);
-#define LINE_TOKEN  "GKBu6JVAtIwJ4YlaJqB4L5bAVIjwVkjRjpRebDq0ZLr"   //Token LineNotify
+#define LINE_TOKEN  "XXXXXXXXXXXX"   //Token LineNotify
 
-const char* ssid = "NKP Home";
-const char* password = "88888888";
+const char* ssid = "XXXXXXXXXXXX";
+const char* password = "XXXXXXXXXXXX";
 
 // Domain name with URL path or IP address with path
 const char* serverName = "http://live.nkpcoldstorage.com/esp-post-data.php";
 
 // API key for checking with POST
-String apiKeyValue = "tPmAT5Ab3j7F9";
+String apiKeyValue = "XXXXXXXXXXXX";
 String sensorName = "DHT22";
 String sensorLocation = "Freezer3";
 String versionINO = "1.3";
