@@ -2,7 +2,7 @@
 include_once('esp-database.php');
 
 // Keep this API Key value to be compatible with the ESP code provided in the project page. If you change this value, the ESP sketch needs to match
-$api_key_value = "tPmAT5Ab3j7F9";
+$api_key_value = "XXXXXXXXXXXX";
 
 $api_key = $sensor = $location = $value1 = $value2 = $value3 = "";
 
